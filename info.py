@@ -51,6 +51,7 @@ CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHAN
 # post channel auto post new movie
 POST_CHANNELS = list(map(int, (channel.strip() for channel in environ.get('POST_CHANNELS', '-1002310160204').split(','))))
 AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1001860172104'))
+AUTH_CHANNEL1 = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL1', '-1001860172104').split()] # give channel id with seperate space. Ex : ('-10073828 -102782829 -1007282828')
 AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '-1002314687215'))
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'True')), False)
 
