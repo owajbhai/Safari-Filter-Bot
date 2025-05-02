@@ -93,12 +93,12 @@ MAX_B_TN = environ.get("MAX_B_TN", "7")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/up')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+8_9Ycm-CPpUxNWY1')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/NetflixHindiMOVIEHD1')
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001860172104))
 GROUP_VERIFY_LOGS = int(environ.get('GROUP_VERIFY_LOGS', -1001860172104)) # Group verify stats 
 REQ_CHANNEL = int(environ.get('REQ_CHANNEL', -1001860172104)) # movies request channel, else log channel
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Jhwjwp')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+aAmjR1AgZmRlOGJl')
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
@@ -127,7 +127,7 @@ else:
     ON_HEROKU = False
 BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
 FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
-URL = "https://{}/".format(FQDN) if ON_HEROKU or NO_PORT else \
+URL = "https://certain-abagail-sarifbhaiyt56-1b92b812.koyeb.app/".format(FQDN) if ON_HEROKU or NO_PORT else \
     "https://{}:{}/".format(FQDN, PORT)
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
