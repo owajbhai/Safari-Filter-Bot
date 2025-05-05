@@ -26,7 +26,7 @@ TIMEZONE = environ.get("TIMEZONE", "Asia/Kolkata")
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = is_enabled((environ.get('USE_CAPTION_FILTER', 'True')), True)
-PICS = (environ.get('PICS', 'https://i.ibb.co/1tzyhXBq/def78ecf9c21.jpg https://i.ibb.co/1tzyhXBq/def78ecf9c21.jpg https://i.ibb.co/1tzyhXBq/def78ecf9c21.jpg https://i.ibb.co/1tzyhXBq/def78ecf9c21.jpg https://telegra.ph/file/ec5f5a031b7826e28360c.jpg https://i.ibb.co/1tzyhXBq/def78ecf9c21.jpg https://i.ibb.co/1tzyhXBq/def78ecf9c21.jpg https://telegra.ph/file/a5d518f6020976bc45264.jpg https://i.ibb.co/1tzyhXBq/def78ecf9c21.jpg https://i.ibb.co/1tzyhXBq/def78ecf9c21.jpg https://i.ibb.co/1tzyhXBq/def78ecf9c21.jpg')).split()
+PICS = (environ.get('PICS', 'https://i.ibb.co/1tzyhXBq/def78ecf9c21.jpg https://i.ibb.co/1tzyhXBq/def78ecf9c21.jpg https://i.ibb.co/1tzyhXBq/def78ecf9c21.jpg https://i.ibb.co/1tzyhXBq/def78ecf9c21.jpg https://i.ibb.co/1tzyhXBq/def78ecf9c21.jpg https://i.ibb.co/1tzyhXBq/def78ecf9c21.jpg https://i.ibb.co/1tzyhXBq/def78ecf9c21.jpg https://i.ibb.co/1tzyhXBq/def78ecf9c21.jpg https://i.ibb.co/1tzyhXBq/def78ecf9c21.jpg https://i.ibb.co/1tzyhXBq/def78ecf9c21.jpg https://i.ibb.co/1tzyhXBq/def78ecf9c21.jpg')).split()
 WELCOME_VID = environ.get("WELCOME_VID", "https://telegra.ph/file/451f038b4e7c2ddd10dc0.mp4")
 
 #premium imag
